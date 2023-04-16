@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "301093877862",
+    "project_id": "turistmedia-3cacc",
+    "storage_bucket": "turistmedia-3cacc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301093877862:android:fca1f298cd2cd7e0dd15a7",
+        "android_client_info": {
+          "package_name": "com.example.turistmedia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301093877862-gldmaj9tqpdofic7hm565sgq788006e6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ixNeQMvipY9-e_7eFErkGM9JcLyYdZQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301093877862-gldmaj9tqpdofic7hm565sgq788006e6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

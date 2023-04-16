@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        style="@style/Animation.Design.BottomSheetDialog"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:id="@+id/emailTIL">
+        <EditText
+            android:id="@+id/emailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Enter Email"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/passwordTIL"
+        android:layout_below="@id/emailTIL"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textWebPassword"
+            android:hint="Enter Password"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginbtn"
+        android:layout_below="@id/passwordTIL"
+        android:text="Login"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/recoverPassTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/loginbtn"
+        android:text="Forgot Password? Recover"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nothave_accountTv"
+        android:text="Not Have Account ? Register"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
